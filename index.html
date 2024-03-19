@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="./design.js">
+        
+    </script>
+    <div class="bg">
+        <div class="game-container">
+            <center>
+            <h1>
+                GUESS MY NUMBER ??
+            </h1>
+        </center>
+        <center>
+        <h3>
+            Try guessing numbers in between 1 to 100 and Match !!!
+        </h3>
+    </center>
+    <center>
+        <div class="lab">
+        <label> GUESS THE NUMBER : </label>
+        <input type="text" placeholder="ENTER THE NUMBER " id="n1">
+    </div>
+    </center>
+    <center>
+        <h2 id="Win">
+
+        </h2>
+    </center>
+        <center>
+        <h3>
+            No OF TRIES :
+        </h3>
+        <h4 id="chance">
+0
+        </h4>
+    </center>
+    <center>
+        <input type="submit" value="CHECK" onclick="findnum()">
+        <input type="submit" value="RESET" onclick="window.location.reload()">
+    </center>
+        </div>
+    </div>
+</body>
+</html>
